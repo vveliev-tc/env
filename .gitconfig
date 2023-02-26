@@ -5,7 +5,7 @@
 	process = git-lfs filter-process
 [user]
 	name = Vagif Veliev
-	email = velievv@gmail.com
+	email = vveliev@tucows.com
 [core]
 	autocrlf = false
 	safecrlf = true
