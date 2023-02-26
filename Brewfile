@@ -4,22 +4,21 @@ tap "homebrew/core"
 tap "homebrew/services"
 
 ####### <-----------------------------  CLI
-brew "bash-completion"
+# brew "bash-completion"
 brew "git"
-brew "git-lfs"
-brew "git-recent"
-brew "nvm"
+# brew "git-lfs"
+brew "git-recent"                   # See your latest local git branches, formatted real fancy
+brew "nvm"                          # Manage multiple Node.js versions
 brew "pyenv"
 brew "pyenv-virtualenv"
-brew "thefuck"
 brew "yarn"
 # brew "readline", link: true
-cask "ngrok"
 # cask "osxfuse"
 # brew "sshfs"
+brew "thefuck"
+brew "m-cli"
 brew "tmux"
 brew "rlwrap"
-cask "font-hack-nerd-font"
 
 ####### <----------------------------- DB
 cask "postico"
@@ -30,8 +29,8 @@ cask "tableplus"
 ####### <----------------------------- EDITORS
 # cask "atom"
 cask "visual-studio-code"
-cask "meld"                                    # diff UI tool
-cask "sublime-text"                
+cask "meld"                         # diff UI tool
+# cask "sublime-text"                
 
 ####### <----------------------------- DEV
 cask "docker"
@@ -49,22 +48,28 @@ brew "nomad"
 ####### <----------------------------- MESSENGERS
 cask "slack"
 cask "telegram-desktop"
+cask "microsoft-teams"
+cask "zoom"
+# cask "viber"
 # cask "skype"
 # cask "discord"
 
 ####### <----------------------------- APPS
-# cask "google-chrome"
+cask "visual-studio-code"
+cask "google-chrome"
+# cask "github"
+cask "spotify"
 # cask "chromium"
 # cask "steam"
 # cask "folx"
 cask "alfred"
 cask "bartender"
 cask "spectacle"
-cask "dash"         # api documentation browser
+cask "dash"                         # api documentation browser
 cask "copyq"
 
 ####### <----------------------------- MISC
-cask "yandex-disk"
+# cask "yandex-disk"
 cask "raven-reader"
 cask "openvpn-connect"
 cask "hammerspoon"
@@ -73,3 +78,10 @@ brew "graphviz"
 brew "fontconfig"
 # cask "insomniax"
 # cask "vlc"
+
+####### <----------------------------- HELPERS
+cask "ngrok"                        # Reverse proxy, secure introspectable tunnels to localhost https://ngrok.com/
+cask "numi"                         # Calculator and converter application https://numi.app/
+cask "boop"                         # encoding/decoding messages https://boop.okat.best/
+# cask "ace-link"
+
