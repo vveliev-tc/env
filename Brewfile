@@ -20,6 +20,7 @@ cask "ngrok"
 brew "tmux"
 brew "rlwrap"
 cask "font-hack-nerd-font"
+cask "1password-cli"
 
 ####### <----------------------------- DB
 cask "postico"
